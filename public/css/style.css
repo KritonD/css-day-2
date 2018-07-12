@@ -1,0 +1,50 @@
+#crown-molding {
+    background-color: #aae0ff;
+    height: 5vh;
+}
+#main-wall {
+    background-color: #42b3f4;
+    height: 1700px;
+    text-align: center;
+
+}
+
+.picture-frame {
+    width:400px;
+    height:400px;
+    display:inline-block;
+    margin-top: 50px;
+    border-style: dotted;
+    border-color: red;
+    padding: 1%;
+
+}
+
+#left{
+    background-color: #aaffaa;
+    border-color: blue;
+    border-style: groove;
+    border-width: 30px;
+    
+}
+
+.picture-frame img:hover{
+    opacity: 0.5;
+
+} 
+#middle{
+    background-color: #d4f7d4;
+    border-style:double;
+    border-width: 20px;
+    border-color: pink;
+
+}
+
+#right{    
+    background-color: #43f943;
+}
+
+img {
+    height:98%;
+
+}
