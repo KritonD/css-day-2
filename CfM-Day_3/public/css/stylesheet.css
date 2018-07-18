@@ -1,0 +1,47 @@
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap:  wrap;
+    justify-content: space-evenly;
+    
+}
+.box {
+    width:400px;
+    height:400px;
+}
+
+#left {
+    background-color: blue;
+
+}
+
+#right {
+    background-color: red;
+
+}
+
+#middle{
+    background-color: yellow
+}
+
+
+/*@media (min-width:0px) and (max-width:414px) /*iPhone 8 horizontal width{ 
+    h2 {
+        font-size: 12px;
+        color:blue;
+        }
+    body {
+        background-image: url(https://9to5mac.files.wordpress.com/2014/09/iphone6-select-2014.png?w=782)   ;
+        background-position: left top;
+    }
+}
+
+@media (min-width:415px) and (max-width:768px)/*iPad horizontal width{
+    body {
+        background-image: url(https://images.kogan.com/image/fetch/s--4uUL-TgJ--/b_white,c_pad,f_auto,h_400,q_auto:good,w_600/https://assets.kogan.com/files/product/HKI/20170324_New_iPad/KHIPADAIR332WGRY_1.jpg);
+        background-position: left top;
+
+    }
+    
+}*/
+
